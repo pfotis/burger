@@ -29,7 +29,4 @@ const orm  = {
     },
 };
     
-
-
-
 module.exports = orm;
