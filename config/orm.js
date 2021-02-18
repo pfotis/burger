@@ -10,8 +10,8 @@ const orm = () => {
             callBack(result);
         });
     };
-    const insertOne = (table, inputBurger) => {
-
+    const insertOne = (table, insertBurger) => {
+        const query = `INSERT INTO ${table} (name_burger) VALUES (${insertBurger})`
     };
 };
     
