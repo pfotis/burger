@@ -10,6 +10,9 @@ const orm = () => {
             callBack(result);
         });
     };
+    const insertOne = (table, inputBurger) => {
+
+    };
 };
     
 
