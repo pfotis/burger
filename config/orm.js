@@ -9,7 +9,7 @@ const orm  = {
                 throw error;
             callBack(result);
         });
-    };
+    },
     const insertOne = (table, division, insertBurger, callBack) => {
         const query = `INSERT INTO ${table} (${division}) VALUES (${insertBurger})`;
         connection.query(query , (error, result) => {
@@ -17,7 +17,7 @@ const orm  = {
                 throw error;
             callBack(result);
         });
-    };
+    },
     const updateOne = (table, updateValue, newValue, value, conditionValue, callBack) => {
         const query = `UPDATE ${table} SET ${updateValue} = ${newValue} 
                         WHERE ${value} = ${conditionValue}`;
@@ -26,7 +26,7 @@ const orm  = {
                 throw error;
             callBack(result);
         });
-    };
+    },
 };
     
 
