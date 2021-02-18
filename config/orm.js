@@ -2,7 +2,7 @@ const e = require('express');
 const connection = require('./connection.js');
 
 const orm  = {
-    const selectALL =(table , callBack) => {
+    selectAll(table , callBack){
         const query = `SELECT * FROM ${table}`;
         connection.query(query , (error, result) => {
             if(error)
@@ -10,7 +10,7 @@ const orm  = {
             callBack(result);
         });
     },
-    const insertOne = (table, division, insertBurger, callBack) => {
+    insertOne(table, division, insertBurger, callBack){
         const query = `INSERT INTO ${table} (${division}) VALUES (${insertBurger})`;
         connection.query(query , (error, result) => {
             if(error)
@@ -18,7 +18,7 @@ const orm  = {
             callBack(result);
         });
     },
-    const updateOne = (table, updateValue, newValue, value, conditionValue, callBack) => {
+    updateOn(table, updateValue, newValue, value, conditionValue, callBack){
         const query = `UPDATE ${table} SET ${updateValue} = ${newValue} 
                         WHERE ${value} = ${conditionValue}`;
         connection.query(query, (error, result) => {
