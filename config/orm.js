@@ -1,8 +1,8 @@
 const connection = require('./connection.js');
 
 const orm = () => {
-    const selectALL =() => {
-        const query = "SELECT name FROM "
+    const selectALL =(table , callBack) => {
+        const query = `SELECT * FROM ${table}`;
     };
 };
     
