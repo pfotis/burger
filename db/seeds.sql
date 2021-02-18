@@ -1,3 +1,8 @@
-INSERT INTO burgers (name) VALUES ('Pull-Beef with a lot');
-INSERT INTO burgers (name) VALUES ('Chicken with a lot');
-INSERT INTO burgers (name) VALUES ('Cheeseburger with pickles');
+INSERT INTO burgers (burger_name) VALUES ('50/50 burger');
+INSERT INTO burgers (burger_name) VALUES ('Angus burger');
+INSERT INTO burgers (burger_name) VALUES ('Aussie Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', true);
+INSERT INTO burgers(burger_name, devoured) VALUES ('Barbecue burger', true);
+INSERT INTO burgers (burger_name) VALUES ('Aussie Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Banquet Burger', true);
+
