@@ -18,8 +18,9 @@ const orm = () => {
             callBack(result);
         });
     };
-    const updateOne = () => {
-        const query = `UPDATE ${table} SET ${updateValue} = ${newValue} WHERE ${value} = ${conditionValue}`;
+    const updateOne = (table, updateValue, newValue, value, conditionValue, callBack) => {
+        const query = `UPDATE ${table} SET ${updateValue} = ${newValue} 
+                        WHERE ${value} = ${conditionValue}`;
     };
 };
     
