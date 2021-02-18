@@ -1,7 +1,7 @@
 const e = require('express');
 const connection = require('./connection.js');
 
-const orm = () => {
+const orm  = {
     const selectALL =(table , callBack) => {
         const query = `SELECT * FROM ${table}`;
         connection.query(query , (error, result) => {
