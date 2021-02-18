@@ -13,8 +13,13 @@ const orm = () => {
     const insertOne = (table, division, insertBurger, callBack) => {
         const query = `INSERT INTO ${table} (${division}) VALUES (${insertBurger})`;
         connection.query(query , (error, result) => {
-            //code
+            if(error)
+                throw error;
+            callBack(result);
         });
+    };
+    const updateOne = () => {
+        // code
     };
 };
     
