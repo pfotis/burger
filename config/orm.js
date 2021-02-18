@@ -19,7 +19,7 @@ const orm = () => {
         });
     };
     const updateOne = () => {
-        // code
+        const query = `UPDATE ${table} SET ${updateValue} = ${newValue} WHERE ${value} = ${conditionValue}`;
     };
 };
     
