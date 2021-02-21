@@ -19,8 +19,7 @@ const orm  = {
         });
     },
     updateOne(table, setValue, newValue, whereValue, conditionValue, callBack){
-        const query = `UPDATE ${table} SET ${setValue} = '${newValue}' 
-                        WHERE ${whereValue} = '${conditionValue}'`;
+        const query = `UPDATE ${table} SET ${setValue} = '${newValue}' WHERE ${whereValue} = '${conditionValue}'`;               
         connection.query(query, (error, result) => {
             if(error)
                 throw error;

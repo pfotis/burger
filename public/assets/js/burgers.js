@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Grabs the id of the element that goes by the name, "id"
         const id = e.target.getAttribute('data-id');
         const newDevoured = e.target.getAttribute('data-newdevoured');
-
         const newDevouredState = {
             devoured: newDevoured,
         };
@@ -24,7 +23,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
             Accept: 'application/json',
             'Content-Type': 'application/json',
             },
-
             // make sure to serialize the JSON body
             body: JSON.stringify(newDevouredState),
         }).then((response) => {

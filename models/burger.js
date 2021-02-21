@@ -8,7 +8,7 @@ const burger = {
         orm.insertOne('burgers', 'burger_name', insertValue, (res) => cb(res));
     },
     update(updateValue,  conditionValue, cb){
-        orm.updateOne('burgers', 'devoured', updateValue, 'burger_name', conditionValue, (res) => cb(res));
+        orm.updateOne('burgers', 'devoured', updateValue, 'id', conditionValue, (res) => cb(res));
     },
 };
 
