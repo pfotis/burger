@@ -1,0 +1,56 @@
+h1, #create-form{
+    text-align: center;
+}
+h1{
+    color : red;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+#addBurger{
+    float: none;
+    color:white;
+    background-color: blue;
+
+}
+button{
+    float: right;
+}
+/*#menu li{
+    display: inline;
+}*/
+
+li{
+    background-color: grey;
+    width: 240px;
+    padding: 10px 15px 10px 15px;
+    margin:15px;
+}
+
+#ready, #deliver{
+    list-style-type: none;
+    display: inline-block;
+}
+
+body{
+    background-color: rgb(218, 194, 62);
+}
+
+input{
+    width: 160px;
+    height: 60px;
+}
+
+#img {
+    height: 250px;
+    width: 30%;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/burgers.jpg");
+    background-size: cover;
+    background-position: center;
+}
