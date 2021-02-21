@@ -18,3 +18,19 @@ router.post('/api/burgers', (req, res) => {
         res.json({ id: result.insertId });
     });
 });
+
+router.put('/api/burgers/:id', (req, res) => {
+    console.log(`id = ${req.params.id}`);
+  
+    cat.update(req.body.devoured, req.params.id, (result) => {
+        if (result.changedRows === 0) {
+          // If no rows were changed, then the ID must not exist, so 404
+          return res.status(404).end();
+        }
+        res.status(200).end();
+      }
+    );
+  });
+  
+  // Export routes for server.js to use.
+  module.exports = router;
