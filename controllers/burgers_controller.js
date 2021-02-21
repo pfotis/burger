@@ -14,7 +14,7 @@ router.get('/', (req, res) =>{
 });
 
 router.post('/api/burgers', (req, res) => {
-    burger.insert(req.params.name,(result) => {
+    burger.insert(req.body.name,(result) => {
         res.json({ id: result.insertId });
     });
 });
@@ -22,7 +22,7 @@ router.post('/api/burgers', (req, res) => {
 router.put('/api/burgers/:id', (req, res) => {
     console.log(`id = ${req.params.id}`);
   
-    burger.update(req.body.devoured, req.params.id, (result) => {
+    burger.update(req.body.devoured, req.body.id, (result) => {
         if (result.changedRows === 0) {
           // If no rows were changed, then the ID must not exist, so 404
           return res.status(404).end();
