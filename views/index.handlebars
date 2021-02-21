@@ -19,12 +19,13 @@
         {{#if devoured}}
             <li>
                 {{name}}
+                <button class="ready_burger" data-id="{{id}}" data-newdevoured="{{devoured}}">Ready!</button>
             </li>
         {{/if}}
     {{/each}}
 </ul>
 
-<h2>Add a Cat</h2>
+<h2>Add New Burger</h2>
 <form id="create-form">
   <div class="form-group">
     <label for="id_burger">Burger:</label>
