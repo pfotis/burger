@@ -34,5 +34,6 @@ const orm  = {
         });
     },
 };
-    
+
+// Export orm for burger.js to use.
 module.exports = orm;

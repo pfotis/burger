@@ -20,4 +20,5 @@ const burger = {
     },
 };
 
+// Export burger for burger_controller.js to use.
 module.exports = burger;
