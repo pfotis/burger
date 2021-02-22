@@ -41,15 +41,15 @@
 
     With the following pictures the user could see the outfit of this project.
 
-    <img src="./public/assets/img/readme/first_impress.png" alt="first_impress">
+<img src="./public/assets/img/readme/first_impress.png" alt="first_impress">
 
-    <img src="./public/assets/img/readme/type_burger.png" alt="type_burger">
+<img src="./public/assets/img/readme/type_burger.png" alt="type_burger">
 
-    <img src="./public/assets/img/readme/submit.png" alt="submit">
+<img src="./public/assets/img/readme/submit.png" alt="submit">
 
-    <img src="./public/assets/img/readme/devour.png" alt="devour">
+<img src="./public/assets/img/readme/devour.png" alt="devour">
 
-    <img src="./public/assets/img/readme/after_devour.png" alt="after_devour">
+<img src="./public/assets/img/readme/after_devour.png" alt="after_devour">
 
 
 ## Questions
