@@ -37,7 +37,7 @@
 
     npm init
 
-## Test
+## Tests
 
     With the following pictures the user could see the outfit of this project.
 
