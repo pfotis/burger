@@ -1,7 +1,10 @@
+
+/*------------------- Body -------------------*/
 body{
     background-color: rgb(218, 194, 62);
 }
 
+/*------------------- Image -------------------*/
 #img{
     height: 250px;
     width: 30%;
@@ -14,12 +17,13 @@ body{
     background-position: center;
 }
 
+/*------------------- Header -------------------*/
 h1{
     text-align: center;
     color : red;
 }
 
-
+/*------------------- List of Burgers -------------------*/
 #menu{
     display: flex;
     justify-content: center;
@@ -42,6 +46,7 @@ button:hover{
     background-color: yellow;
 }
 
+/*------------------- Form -------------------*/
 #create-form{
     text-align: center;
 }
