@@ -16,9 +16,12 @@
 
 ## Description
 
-    This application could help the user to store burgers. And the user could see in his/her screen the list of the burgers the user can see for each burger created a button "devour" as soon as click this butoon for any burger the burger move to right side of the screen.
+    This application could help the user to store burgers. And the user could see in his/her
+    screen the list of the burgers the user can see for each burger created a button "devour"
+    as soon as click this butoon for any burger the burger move to right side of the screen.
 
-    At this application we use database to store and restore  and update the data (burgers), the user could see at his/her screen.
+    At this application we use database to store and restore  and update the data (burgers),
+    the user could see at his/her screen.
 
 ## Installation
 
@@ -38,15 +41,15 @@
 
     With the following pictures the user could see the outfit of this project.
 
-    <img src="./public/assets/imag/readme/first_impress.png" alt="first_impress">
+    <img src="./public/assets/img/readme/first_impress.png" alt="first_impress">
 
-    <img src="./public/assets/imag/readme/type_burger.png" alt="type_burger">
+    <img src="./public/assets/img/readme/type_burger.png" alt="type_burger">
 
-    <img src="./public/assets/imag/readme/submit.png" alt="submit">
+    <img src="./public/assets/img/readme/submit.png" alt="submit">
 
-    <img src="./public/assets/imag/readme/devour.png" alt="devour">
+    <img src="./public/assets/img/readme/devour.png" alt="devour">
 
-    <img src="./public/assets/imag/readme/after_devour.png" alt="after_devour">
+    <img src="./public/assets/img/readme/after_devour.png" alt="after_devour">
 
 
 ## Questions
